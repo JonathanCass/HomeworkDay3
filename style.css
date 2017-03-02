@@ -34,6 +34,11 @@ input{
 	text-indent: 10px;
 	margin-top: 10px;
 }
+input::-webkit-input-placeholder {
+  color: #2c6c9b;
+  font-style: italic;
+  font-size: 22px;
+}
 input:focus{
 	outline-color: #2c6c9b;
 }
@@ -47,6 +52,8 @@ textarea{
 	font-size: 18px;
 	text-indent: 10px;
 	padding-top: 10px;
+	width: 400px;
+	height: 200px;
 }
 textarea:focus{
 	outline-color: #2c6c9b;
@@ -62,12 +69,4 @@ select{
 	outline: grey solid 1px;
 	margin-top: 10px;
 }
-input::-webkit-input-placeholder {
-  color: #2c6c9b;
-  font-style: italic;
-  font-size: 22px;
-}
-textarea{
-	width: 400px;
-	height: 200px;
-}
+
