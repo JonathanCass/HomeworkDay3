@@ -13,6 +13,8 @@ body {
 	font-family: Arial;
 	color: #eff6fb;
 	font-size: 18px;
+}
+form {
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -35,9 +37,9 @@ input{
 	margin-top: 10px;
 }
 input::-webkit-input-placeholder {
-  color: #2c6c9b;
-  font-style: italic;
-  font-size: 22px;
+	color: #2c6c9b;
+	font-style: italic;
+	font-size: 22px;
 }
 input:focus{
 	outline-color: #2c6c9b;
@@ -69,4 +71,3 @@ select{
 	margin-top: 10px;
 	outline: grey solid 1px;
 }
-
