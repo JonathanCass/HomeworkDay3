@@ -14,6 +14,7 @@ body {
 	color: #eff6fb;
 	font-size: 18px;
 	display:flex;
+	flex-wrap: wrap;
 }
 div{
 	width: 400px;
