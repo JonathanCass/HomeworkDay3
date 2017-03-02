@@ -33,6 +33,7 @@ input{
 	color: #eff6fb;
 	font-size: 18px;
 	text-indent: 10px;
+	margin-top: 10px
 }
 input:focus{
 	outline-color: #2c6c9b;
@@ -41,6 +42,7 @@ textarea{
 	outline:white solid 3px;
 	margin-bottom: 40px;
 	background:transparent;
+	margin-top: 10px;
 }
 textarea:focus{
 	outline-color: #2c6c9b;
@@ -53,7 +55,8 @@ select{
 	font-size: 21px;
 	background-color: #5CA3D6;
 	margin-bottom: 40px;
-	outline:white solid 3px;
+	outline:grey solid 1px;
+	margin-top: 10px;
 }
 input::-webkit-input-placeholder {
   color: #2c6c9b;
